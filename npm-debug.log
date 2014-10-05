@@ -1,0 +1,473 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'http',
+1 verbose cli   'bluebird',
+1 verbose cli   'fs',
+1 verbose cli   'child_process',
+1 verbose cli   'url' ]
+2 info using npm@2.0.2
+3 info using node@v0.10.32
+4 verbose node symlink /usr/local/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'http', null ]
+7 verbose cache add spec="http" args=["http",null]
+8 verbose parsed spec { raw: 'http',
+8 verbose parsed spec   scope: null,
+8 verbose parsed spec   name: 'http',
+8 verbose parsed spec   rawSpec: '',
+8 verbose parsed spec   spec: '*',
+8 verbose parsed spec   type: 'range' }
+9 verbose cache add [ 'bluebird', null ]
+10 verbose cache add spec="bluebird" args=["bluebird",null]
+11 verbose parsed spec { raw: 'bluebird',
+11 verbose parsed spec   scope: null,
+11 verbose parsed spec   name: 'bluebird',
+11 verbose parsed spec   rawSpec: '',
+11 verbose parsed spec   spec: '*',
+11 verbose parsed spec   type: 'range' }
+12 verbose cache add [ 'fs', null ]
+13 verbose cache add spec="fs" args=["fs",null]
+14 verbose parsed spec { raw: 'fs',
+14 verbose parsed spec   scope: null,
+14 verbose parsed spec   name: 'fs',
+14 verbose parsed spec   rawSpec: '',
+14 verbose parsed spec   spec: '*',
+14 verbose parsed spec   type: 'range' }
+15 verbose cache add [ 'child_process', null ]
+16 verbose cache add spec="child_process" args=["child_process",null]
+17 verbose parsed spec { raw: 'child_process',
+17 verbose parsed spec   scope: null,
+17 verbose parsed spec   name: 'child_process',
+17 verbose parsed spec   rawSpec: '',
+17 verbose parsed spec   spec: '*',
+17 verbose parsed spec   type: 'range' }
+18 verbose cache add [ 'url', null ]
+19 verbose cache add spec="url" args=["url",null]
+20 verbose parsed spec { raw: 'url',
+20 verbose parsed spec   scope: null,
+20 verbose parsed spec   name: 'url',
+20 verbose parsed spec   rawSpec: '',
+20 verbose parsed spec   spec: '*',
+20 verbose parsed spec   type: 'range' }
+21 verbose parsed spec { raw: 'http',
+21 verbose parsed spec   scope: null,
+21 verbose parsed spec   name: 'http',
+21 verbose parsed spec   rawSpec: '',
+21 verbose parsed spec   spec: '*',
+21 verbose parsed spec   type: 'range' }
+22 verbose addNamed [ 'http', '*' ]
+23 verbose addNamed [ null, '*' ]
+24 verbose parsed spec { raw: 'bluebird',
+24 verbose parsed spec   scope: null,
+24 verbose parsed spec   name: 'bluebird',
+24 verbose parsed spec   rawSpec: '',
+24 verbose parsed spec   spec: '*',
+24 verbose parsed spec   type: 'range' }
+25 verbose addNamed [ 'bluebird', '*' ]
+26 verbose addNamed [ null, '*' ]
+27 verbose parsed spec { raw: 'fs',
+27 verbose parsed spec   scope: null,
+27 verbose parsed spec   name: 'fs',
+27 verbose parsed spec   rawSpec: '',
+27 verbose parsed spec   spec: '*',
+27 verbose parsed spec   type: 'range' }
+28 verbose addNamed [ 'fs', '*' ]
+29 verbose addNamed [ null, '*' ]
+30 verbose parsed spec { raw: 'child_process',
+30 verbose parsed spec   scope: null,
+30 verbose parsed spec   name: 'child_process',
+30 verbose parsed spec   rawSpec: '',
+30 verbose parsed spec   spec: '*',
+30 verbose parsed spec   type: 'range' }
+31 verbose addNamed [ 'child_process', '*' ]
+32 verbose addNamed [ null, '*' ]
+33 verbose parsed spec { raw: 'url',
+33 verbose parsed spec   scope: null,
+33 verbose parsed spec   name: 'url',
+33 verbose parsed spec   rawSpec: '',
+33 verbose parsed spec   spec: '*',
+33 verbose parsed spec   type: 'range' }
+34 verbose addNamed [ 'url', '*' ]
+35 verbose addNamed [ null, '*' ]
+36 silly lockFile 67b29158-http http@*
+37 verbose lock http@* /Users/jacobpayne/.npm/67b29158-http.lock
+38 silly lockFile b5ae4f48-bluebird bluebird@*
+39 verbose lock bluebird@* /Users/jacobpayne/.npm/b5ae4f48-bluebird.lock
+40 silly lockFile d8bf140d-fs fs@*
+41 verbose lock fs@* /Users/jacobpayne/.npm/d8bf140d-fs.lock
+42 silly lockFile 47f27491-child-process child_process@*
+43 verbose lock child_process@* /Users/jacobpayne/.npm/47f27491-child-process.lock
+44 silly lockFile cc65f1b2-url url@*
+45 verbose lock url@* /Users/jacobpayne/.npm/cc65f1b2-url.lock
+46 silly addNameRange { name: 'fs', range: '*', hasData: false }
+47 verbose mapToRegistry name fs
+48 verbose mapToRegistry uri https://registry.npmjs.org/fs
+49 silly addNameRange { name: 'child_process', range: '*', hasData: false }
+50 verbose mapToRegistry name child_process
+51 verbose mapToRegistry uri https://registry.npmjs.org/child_process
+52 silly addNameRange { name: 'http', range: '*', hasData: false }
+53 verbose mapToRegistry name http
+54 verbose mapToRegistry uri https://registry.npmjs.org/http
+55 silly addNameRange { name: 'bluebird', range: '*', hasData: false }
+56 verbose mapToRegistry name bluebird
+57 verbose mapToRegistry uri https://registry.npmjs.org/bluebird
+58 verbose request on initialization, where is /fs
+59 verbose request after pass 1, where is /fs
+60 verbose request url raw /fs
+61 verbose request resolving registry [ 'https://registry.npmjs.org/', './fs' ]
+62 verbose request after pass 2, where is https://registry.npmjs.org/fs
+63 verbose request no auth needed
+64 info attempt registry request try #1 at 17:02:51
+65 verbose request id 1ff39e9ab208c210
+66 http request GET https://registry.npmjs.org/fs
+67 silly addNameRange { name: 'url', range: '*', hasData: false }
+68 verbose mapToRegistry name url
+69 verbose mapToRegistry uri https://registry.npmjs.org/url
+70 verbose request on initialization, where is /http
+71 verbose request after pass 1, where is /http
+72 verbose request url raw /http
+73 verbose request resolving registry [ 'https://registry.npmjs.org/', './http' ]
+74 verbose request after pass 2, where is https://registry.npmjs.org/http
+75 verbose request no auth needed
+76 info attempt registry request try #1 at 17:02:51
+77 http request GET https://registry.npmjs.org/http
+78 verbose request on initialization, where is /child_process
+79 verbose request after pass 1, where is /child_process
+80 verbose request url raw /child_process
+81 verbose request resolving registry [ 'https://registry.npmjs.org/', './child_process' ]
+82 verbose request after pass 2, where is https://registry.npmjs.org/child_process
+83 verbose request no auth needed
+84 info attempt registry request try #1 at 17:02:51
+85 http request GET https://registry.npmjs.org/child_process
+86 verbose request on initialization, where is /bluebird
+87 verbose request after pass 1, where is /bluebird
+88 verbose request url raw /bluebird
+89 verbose request resolving registry [ 'https://registry.npmjs.org/', './bluebird' ]
+90 verbose request after pass 2, where is https://registry.npmjs.org/bluebird
+91 verbose request no auth needed
+92 info attempt registry request try #1 at 17:02:51
+93 verbose etag "CBR1J7TT77TKLC99U54WGG0RE"
+94 http request GET https://registry.npmjs.org/bluebird
+95 verbose request on initialization, where is /url
+96 verbose request after pass 1, where is /url
+97 verbose request url raw /url
+98 verbose request resolving registry [ 'https://registry.npmjs.org/', './url' ]
+99 verbose request after pass 2, where is https://registry.npmjs.org/url
+100 verbose request no auth needed
+101 info attempt registry request try #1 at 17:02:51
+102 verbose etag "5RVPLMGW23EZ7Q0GKW9NCL0VF"
+103 http request GET https://registry.npmjs.org/url
+104 http 304 https://registry.npmjs.org/bluebird
+105 silly registry.get cb [ 304,
+105 silly registry.get   { date: 'Sun, 05 Oct 2014 00:02:52 GMT',
+105 silly registry.get     server: 'Apache',
+105 silly registry.get     via: '1.1 varnish',
+105 silly registry.get     'last-modified': 'Sun, 05 Oct 2014 00:02:52 GMT',
+105 silly registry.get     'cache-control': 'max-age=60',
+105 silly registry.get     etag: '"CBR1J7TT77TKLC99U54WGG0RE"',
+105 silly registry.get     'x-served-by': 'cache-lax1434-LAX',
+105 silly registry.get     'x-cache': 'HIT',
+105 silly registry.get     'x-cache-hits': '1',
+105 silly registry.get     'x-timer': 'S1412467372.134254,VS0,VE1',
+105 silly registry.get     vary: 'Accept',
+105 silly registry.get     'content-length': '0',
+105 silly registry.get     'keep-alive': 'timeout=10, max=50',
+105 silly registry.get     connection: 'Keep-Alive' } ]
+106 verbose etag https://registry.npmjs.org/bluebird from cache
+107 http 404 https://registry.npmjs.org/child_process
+108 verbose headers { date: 'Sun, 05 Oct 2014 00:02:52 GMT',
+108 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+108 verbose headers   'content-type': 'application/json',
+108 verbose headers   'cache-control': 'max-age=0',
+108 verbose headers   'content-length': '52',
+108 verbose headers   'accept-ranges': 'bytes',
+108 verbose headers   via: '1.1 varnish',
+108 verbose headers   age: '0',
+108 verbose headers   'x-served-by': 'cache-lax1435-LAX',
+108 verbose headers   'x-cache': 'MISS',
+108 verbose headers   'x-cache-hits': '0',
+108 verbose headers   'x-timer': 'S1412467372.134348,VS0,VE41',
+108 verbose headers   'keep-alive': 'timeout=10, max=50',
+108 verbose headers   connection: 'Keep-Alive' }
+109 silly registry.get cb [ 404,
+109 silly registry.get   { date: 'Sun, 05 Oct 2014 00:02:52 GMT',
+109 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+109 silly registry.get     'content-type': 'application/json',
+109 silly registry.get     'cache-control': 'max-age=0',
+109 silly registry.get     'content-length': '52',
+109 silly registry.get     'accept-ranges': 'bytes',
+109 silly registry.get     via: '1.1 varnish',
+109 silly registry.get     age: '0',
+109 silly registry.get     'x-served-by': 'cache-lax1435-LAX',
+109 silly registry.get     'x-cache': 'MISS',
+109 silly registry.get     'x-cache-hits': '0',
+109 silly registry.get     'x-timer': 'S1412467372.134348,VS0,VE41',
+109 silly registry.get     'keep-alive': 'timeout=10, max=50',
+109 silly registry.get     connection: 'Keep-Alive' } ]
+110 silly lockFile 47f27491-child-process child_process@*
+111 silly lockFile 47f27491-child-process child_process@*
+112 silly addNameRange number 2 { name: 'bluebird', range: '*', hasData: true }
+113 silly addNameRange versions [ 'bluebird',
+113 silly addNameRange   [ '0.7.1-1',
+113 silly addNameRange     '0.7.1-2',
+113 silly addNameRange     '0.7.1-3',
+113 silly addNameRange     '0.7.1-4',
+113 silly addNameRange     '0.7.1-5',
+113 silly addNameRange     '0.7.2-0',
+113 silly addNameRange     '0.7.3-0',
+113 silly addNameRange     '0.7.4-0',
+113 silly addNameRange     '0.7.4-1',
+113 silly addNameRange     '0.7.5-0',
+113 silly addNameRange     '0.7.6-0',
+113 silly addNameRange     '0.7.7-0',
+113 silly addNameRange     '0.7.7-1',
+113 silly addNameRange     '0.7.8-0',
+113 silly addNameRange     '0.7.8-1',
+113 silly addNameRange     '0.7.9-0',
+113 silly addNameRange     '0.7.9-1',
+113 silly addNameRange     '0.7.10-0',
+113 silly addNameRange     '0.7.10-1',
+113 silly addNameRange     '0.7.11-0',
+113 silly addNameRange     '0.7.12-0',
+113 silly addNameRange     '0.7.12-1',
+113 silly addNameRange     '0.7.12-2',
+113 silly addNameRange     '0.8.0-0',
+113 silly addNameRange     '0.8.0-1',
+113 silly addNameRange     '0.8.0-2',
+113 silly addNameRange     '0.8.0-3',
+113 silly addNameRange     '0.8.1-0',
+113 silly addNameRange     '0.8.2-0',
+113 silly addNameRange     '0.8.2-1',
+113 silly addNameRange     '0.8.2-2',
+113 silly addNameRange     '0.8.3-0',
+113 silly addNameRange     '0.8.3-1',
+113 silly addNameRange     '0.8.3-2',
+113 silly addNameRange     '0.8.3-3',
+113 silly addNameRange     '0.8.4-0',
+113 silly addNameRange     '0.8.4-1',
+113 silly addNameRange     '0.8.5-0',
+113 silly addNameRange     '0.8.5-1',
+113 silly addNameRange     '0.9.0-0',
+113 silly addNameRange     '0.9.1-0',
+113 silly addNameRange     '0.9.1-1',
+113 silly addNameRange     '0.9.2-0',
+113 silly addNameRange     '0.9.2-1',
+113 silly addNameRange     '0.9.3-0',
+113 silly addNameRange     '0.9.4-0',
+113 silly addNameRange     '0.9.4-1',
+113 silly addNameRange     '0.9.5-0',
+113 silly addNameRange     '0.9.6-0',
+113 silly addNameRange     '0.9.7-0',
+113 silly addNameRange     '0.9.8-0',
+113 silly addNameRange     '0.9.9-0',
+113 silly addNameRange     '0.9.10-0',
+113 silly addNameRange     '0.9.10-1',
+113 silly addNameRange     '0.9.11-0',
+113 silly addNameRange     '0.9.11-1',
+113 silly addNameRange     '0.10.0-0',
+113 silly addNameRange     '0.10.0-1',
+113 silly addNameRange     '0.10.1-0',
+113 silly addNameRange     '0.10.2-0',
+113 silly addNameRange     '0.10.2-1',
+113 silly addNameRange     '0.10.3-0',
+113 silly addNameRange     '0.10.4-0',
+113 silly addNameRange     '0.10.4-1',
+113 silly addNameRange     '0.10.5-0',
+113 silly addNameRange     '0.10.6-0',
+113 silly addNameRange     '0.10.7-0',
+113 silly addNameRange     '0.10.8-0',
+113 silly addNameRange     '0.10.9-0',
+113 silly addNameRange     '0.10.9-1',
+113 silly addNameRange     '0.10.10-0',
+113 silly addNameRange     '0.10.11-0',
+113 silly addNameRange     '0.10.11-1',
+113 silly addNameRange     '0.10.11-2',
+113 silly addNameRange     '0.10.11-4',
+113 silly addNameRange     '0.10.12-0',
+113 silly addNameRange     '0.10.13-0',
+113 silly addNameRange     '0.10.13-1',
+113 silly addNameRange     '0.10.14-0',
+113 silly addNameRange     '0.11.0-0',
+113 silly addNameRange     '0.11.1-0',
+113 silly addNameRange     '0.11.2-0',
+113 silly addNameRange     '0.11.3-0',
+113 silly addNameRange     '0.11.4-0',
+113 silly addNameRange     '0.11.4-1',
+113 silly addNameRange     '0.11.5-0',
+113 silly addNameRange     '0.11.5-1',
+113 silly addNameRange     '0.11.6-0',
+113 silly addNameRange     '1.0.0',
+113 silly addNameRange     '1.0.1',
+113 silly addNameRange     '1.0.2',
+113 silly addNameRange     '1.0.3',
+113 silly addNameRange     '1.0.4',
+113 silly addNameRange     '1.0.5',
+113 silly addNameRange     '1.0.7',
+113 silly addNameRange     '1.0.8',
+113 silly addNameRange     '1.1.0',
+113 silly addNameRange     '1.1.1',
+113 silly addNameRange     '1.2.0',
+113 silly addNameRange     '1.2.1',
+113 silly addNameRange     '1.2.2',
+113 silly addNameRange     '1.2.3',
+113 silly addNameRange     '1.2.4',
+113 silly addNameRange     '2.0.2',
+113 silly addNameRange     '2.0.3',
+113 silly addNameRange     '2.0.4',
+113 silly addNameRange     '2.0.5',
+113 silly addNameRange     '2.0.6',
+113 silly addNameRange     '2.0.7',
+113 silly addNameRange     '2.1.1',
+113 silly addNameRange     '2.1.2',
+113 silly addNameRange     '2.1.3',
+113 silly addNameRange     '2.2.0',
+113 silly addNameRange     '2.2.1',
+113 silly addNameRange     '2.2.2',
+113 silly addNameRange     '2.3.0',
+113 silly addNameRange     '2.3.1',
+113 silly addNameRange     '2.3.2',
+113 silly addNameRange     '2.3.3',
+113 silly addNameRange     '2.3.4' ] ]
+114 verbose addNamed [ 'bluebird', '2.3.4' ]
+115 verbose addNamed [ '2.3.4', '2.3.4' ]
+116 silly lockFile d040ce88-bluebird-2-3-4 bluebird@2.3.4
+117 verbose lock bluebird@2.3.4 /Users/jacobpayne/.npm/d040ce88-bluebird-2-3-4.lock
+118 http 200 https://registry.npmjs.org/fs
+119 silly registry.get cb [ 200,
+119 silly registry.get   { date: 'Sun, 05 Oct 2014 00:02:52 GMT',
+119 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+119 silly registry.get     etag: '"5Y7A0YSE1SF0MU6CT0LO8BZ6J"',
+119 silly registry.get     'content-type': 'application/json',
+119 silly registry.get     'cache-control': 'max-age=60',
+119 silly registry.get     'content-length': '1524',
+119 silly registry.get     'accept-ranges': 'bytes',
+119 silly registry.get     via: '1.1 varnish',
+119 silly registry.get     age: '635',
+119 silly registry.get     'x-served-by': 'cache-lax1428-LAX',
+119 silly registry.get     'x-cache': 'MISS',
+119 silly registry.get     'x-cache-hits': '0',
+119 silly registry.get     'x-timer': 'S1412467372.135159,VS0,VE41',
+119 silly registry.get     vary: 'Accept',
+119 silly registry.get     'keep-alive': 'timeout=10, max=50',
+119 silly registry.get     connection: 'Keep-Alive' } ]
+120 http 200 https://registry.npmjs.org/http
+121 silly registry.get cb [ 200,
+121 silly registry.get   { date: 'Sun, 05 Oct 2014 00:02:52 GMT',
+121 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+121 silly registry.get     etag: '"3KZMFOY0N6GDRKZCPU0JVVRM1"',
+121 silly registry.get     'content-type': 'application/json',
+121 silly registry.get     'cache-control': 'max-age=60',
+121 silly registry.get     'content-length': '934',
+121 silly registry.get     'accept-ranges': 'bytes',
+121 silly registry.get     via: '1.1 varnish',
+121 silly registry.get     age: '256',
+121 silly registry.get     'x-served-by': 'cache-lax1423-LAX',
+121 silly registry.get     'x-cache': 'MISS',
+121 silly registry.get     'x-cache-hits': '0',
+121 silly registry.get     'x-timer': 'S1412467372.134775,VS0,VE42',
+121 silly registry.get     vary: 'Accept',
+121 silly registry.get     'keep-alive': 'timeout=10, max=50',
+121 silly registry.get     connection: 'Keep-Alive' } ]
+122 http 304 https://registry.npmjs.org/url
+123 silly registry.get cb [ 304,
+123 silly registry.get   { date: 'Sun, 05 Oct 2014 00:02:52 GMT',
+123 silly registry.get     server: 'Apache',
+123 silly registry.get     via: '1.1 varnish',
+123 silly registry.get     'last-modified': 'Sun, 05 Oct 2014 00:02:52 GMT',
+123 silly registry.get     'cache-control': 'max-age=60',
+123 silly registry.get     etag: '"5RVPLMGW23EZ7Q0GKW9NCL0VF"',
+123 silly registry.get     'x-served-by': 'cache-lax1425-LAX',
+123 silly registry.get     'x-cache': 'HIT',
+123 silly registry.get     'x-cache-hits': '1',
+123 silly registry.get     'x-timer': 'S1412467372.156117,VS0,VE39',
+123 silly registry.get     vary: 'Accept',
+123 silly registry.get     'content-length': '0',
+123 silly registry.get     'keep-alive': 'timeout=10, max=50',
+123 silly registry.get     connection: 'Keep-Alive' } ]
+124 verbose etag https://registry.npmjs.org/url from cache
+125 silly addNameRange number 2 { name: 'url', range: '*', hasData: true }
+126 silly addNameRange versions [ 'url', [ '0.4.9', '0.7.9', '0.10.0', '0.10.1' ] ]
+127 verbose addNamed [ 'url', '0.10.1' ]
+128 verbose addNamed [ '0.10.1', '0.10.1' ]
+129 silly lockFile 80ef5e83-url-0-10-1 url@0.10.1
+130 verbose lock url@0.10.1 /Users/jacobpayne/.npm/80ef5e83-url-0-10-1.lock
+131 silly addNameRange number 2 { name: 'http', range: '*', hasData: true }
+132 silly addNameRange versions [ 'http', [ '0.0.0' ] ]
+133 verbose addNamed [ 'http', '0.0.0' ]
+134 verbose addNamed [ '0.0.0', '0.0.0' ]
+135 silly lockFile 5c64bf45-http-0-0-0 http@0.0.0
+136 verbose lock http@0.0.0 /Users/jacobpayne/.npm/5c64bf45-http-0-0-0.lock
+137 silly addNameRange number 2 { name: 'fs', range: '*', hasData: true }
+138 silly addNameRange versions [ 'fs', [ '0.0.0', '0.0.2' ] ]
+139 verbose addNamed [ 'fs', '0.0.2' ]
+140 verbose addNamed [ '0.0.2', '0.0.2' ]
+141 silly lockFile afea0479-fs-0-0-2 fs@0.0.2
+142 verbose lock fs@0.0.2 /Users/jacobpayne/.npm/afea0479-fs-0-0-2.lock
+143 silly lockFile a092f7e2-ry-npmjs-org-http-http-0-0-0-tgz https://registry.npmjs.org/http/-/http-0.0.0.tgz
+144 verbose lock https://registry.npmjs.org/http/-/http-0.0.0.tgz /Users/jacobpayne/.npm/a092f7e2-ry-npmjs-org-http-http-0-0-0-tgz.lock
+145 silly lockFile f18d0b15-gistry-npmjs-org-fs-fs-0-0-2-tgz https://registry.npmjs.org/fs/-/fs-0.0.2.tgz
+146 verbose lock https://registry.npmjs.org/fs/-/fs-0.0.2.tgz /Users/jacobpayne/.npm/f18d0b15-gistry-npmjs-org-fs-fs-0-0-2-tgz.lock
+147 verbose addRemoteTarball [ 'https://registry.npmjs.org/http/-/http-0.0.0.tgz',
+147 verbose addRemoteTarball   '86e6326d29c5d039de9fac584a45689f929f4f72' ]
+148 silly lockFile 80ef5e83-url-0-10-1 url@0.10.1
+149 silly lockFile 80ef5e83-url-0-10-1 url@0.10.1
+150 silly lockFile d040ce88-bluebird-2-3-4 bluebird@2.3.4
+151 silly lockFile d040ce88-bluebird-2-3-4 bluebird@2.3.4
+152 verbose addRemoteTarball [ 'https://registry.npmjs.org/fs/-/fs-0.0.2.tgz',
+152 verbose addRemoteTarball   'e1f244ef3933c1b2a64bd4799136060d0f5914f8' ]
+153 silly lockFile cc65f1b2-url url@*
+154 silly lockFile cc65f1b2-url url@*
+155 silly lockFile b5ae4f48-bluebird bluebird@*
+156 silly lockFile b5ae4f48-bluebird bluebird@*
+157 info retry fetch attempt 1 at 17:02:52
+158 info attempt registry request try #1 at 17:02:52
+159 http fetch GET https://registry.npmjs.org/http/-/http-0.0.0.tgz
+160 info retry fetch attempt 1 at 17:02:52
+161 info attempt registry request try #1 at 17:02:52
+162 http fetch GET https://registry.npmjs.org/fs/-/fs-0.0.2.tgz
+163 http fetch 200 https://registry.npmjs.org/http/-/http-0.0.0.tgz
+164 silly fetchAndShaCheck shasum 86e6326d29c5d039de9fac584a45689f929f4f72
+165 silly lockFile a092f7e2-ry-npmjs-org-http-http-0-0-0-tgz https://registry.npmjs.org/http/-/http-0.0.0.tgz
+166 silly lockFile a092f7e2-ry-npmjs-org-http-http-0-0-0-tgz https://registry.npmjs.org/http/-/http-0.0.0.tgz
+167 silly lockFile 5c64bf45-http-0-0-0 http@0.0.0
+168 silly lockFile 5c64bf45-http-0-0-0 http@0.0.0
+169 silly lockFile 67b29158-http http@*
+170 silly lockFile 67b29158-http http@*
+171 http fetch 200 https://registry.npmjs.org/fs/-/fs-0.0.2.tgz
+172 silly fetchAndShaCheck shasum e1f244ef3933c1b2a64bd4799136060d0f5914f8
+173 silly lockFile f18d0b15-gistry-npmjs-org-fs-fs-0-0-2-tgz https://registry.npmjs.org/fs/-/fs-0.0.2.tgz
+174 silly lockFile f18d0b15-gistry-npmjs-org-fs-fs-0-0-2-tgz https://registry.npmjs.org/fs/-/fs-0.0.2.tgz
+175 silly lockFile afea0479-fs-0-0-2 fs@0.0.2
+176 silly lockFile afea0479-fs-0-0-2 fs@0.0.2
+177 silly lockFile d8bf140d-fs fs@*
+178 silly lockFile d8bf140d-fs fs@*
+179 verbose stack Error: 404 Not Found: child_process
+179 verbose stack     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:258:14)
+179 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:197:65)
+179 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:237:22)
+179 verbose stack     at Request.emit (events.js:98:17)
+179 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1146:14)
+179 verbose stack     at Request.emit (events.js:117:20)
+179 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1097:12)
+179 verbose stack     at IncomingMessage.emit (events.js:117:20)
+179 verbose stack     at _stream_readable.js:943:16
+179 verbose stack     at process._tickCallback (node.js:419:13)
+180 verbose statusCode 404
+181 verbose pkgid child_process
+182 verbose cwd /Users/jacobpayne/Documents/Repos/Github/mashflash
+183 error Darwin 14.0.0
+184 error argv "node" "/usr/local/bin/npm" "install" "http" "bluebird" "fs" "child_process" "url"
+185 error node v0.10.32
+186 error npm  v2.0.2
+187 error code E404
+188 error 404 Not Found: child_process
+188 error 404
+188 error 404 'child_process' is not in the npm registry.
+188 error 404 You should bug the author to publish it (or use the name yourself!)
+188 error 404 It was specified as a dependency of 'MashFlash'
+188 error 404
+188 error 404 Note that you can also install from a
+188 error 404 tarball, folder, http url, or git url.
+189 verbose exit [ 1, true ]

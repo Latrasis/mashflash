@@ -1,0 +1,31 @@
+{
+  "name": "MashFlash",
+  "version": "0.0.1",
+  "description": "router flash installer manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Latrasis/mashflash.git"
+  },
+  "keywords": [
+    "router",
+    "flash",
+    "installer",
+    "manager"
+  ],
+  "dependencies":{
+    "http":"*",
+    "fs":"*",
+    "child_process":"*",
+    "bluebird":"*"
+  },
+  "author": "Jacob Payne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Latrasis/mashflash/issues"
+  },
+  "homepage": "https://github.com/Latrasis/mashflash"
+}
