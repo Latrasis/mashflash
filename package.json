@@ -17,10 +17,8 @@
     "manager"
   ],
   "dependencies":{
-    "http":"*",
-    "fs":"*",
-    "child_process":"*",
-    "bluebird":"*"
+    "bluebird":"*",
+    "socket.io":"*"
   },
   "author": "Jacob Payne",
   "license": "MIT",
