@@ -1,6 +1,6 @@
 #MashFlash
 
-A (for now) Hypothetical Firmware Installer for Routers
-The 'Homebrew/Apt-get' for all your router configuration.
+A "Fun-ish" Wi-fi Router Firmware Installer + CLI
 
-Because screw reading.
+*Because screw reading.*
+

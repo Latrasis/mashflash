@@ -1,14 +1,16 @@
 {
-  "name": "MashFlash",
-  "version": "0.0.1",
+  "name": "mashflash",
   "description": "router flash installer manager",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
+  "version": "0.0.1",
+  "author": {
+    "name":"Jacob Payne",
+    "email":"jacobapayne@gmail.com"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Latrasis/mashflash.git"
+  "bin": {
+    "mashflash": "./bin/cmd.js"
+  },
+  "scripts": {
+    "start": "bin/cmd.js"
   },
   "keywords": [
     "router",
@@ -20,8 +22,18 @@
     "bluebird":"*",
     "socket.io":"*"
   },
-  "author": "Jacob Payne",
+  "maintainers": [
+    {
+      "name": "jacob",
+      "email": "jacobapayne@gmail.com"
+    }
+  ],
   "license": "MIT",
+  "main":"index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Latrasis/mashflash.git"
+  },
   "bugs": {
     "url": "https://github.com/Latrasis/mashflash/issues"
   },
