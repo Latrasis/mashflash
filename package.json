@@ -7,10 +7,10 @@
     "email": "jacobapayne@gmail.com"
   },
   "bin": {
-    "mashflash": "./bin/cmd.js"
+    "mashflash": "./bin/cmd"
   },
   "scripts": {
-    "start": "bin/cmd.js"
+    "start": "./bin/cmd"
   },
   "keywords": [
     "router",
