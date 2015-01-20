@@ -6,7 +6,7 @@ var readline = require('readline'),
 	minimist = require('minimist'),
 	fs = require('fs'),
 	path = require('path'),
-	flash = require('../');
+	mashflash = require('../');
 
 
 var argv = minimist(process.argv.slice(2), {
@@ -42,7 +42,7 @@ if(argv.help || !process.argv[2]){
 
   console.log(function () {/*
   Usage:
-      mashflash <options>
+      mashmashflash <options>
 
   Options:
       -a, --assistant         start interactive assistant
@@ -50,11 +50,11 @@ if(argv.help || !process.argv[2]){
       -h, --help              display this help message
       -v, --version           print the current version
 
-  Contribute your own!  https://github.com/latrasis/mashflash
+  Contribute your own!  https://github.com/latrasis/mashmashflash
 
     */}.toString().split(/\n/).slice(1, -1).join('\n'))
   process.exit(0)
 }
 
 
-// flash().from('linksys').to('linksys');
+// mashflash().from('linksys').to('linksys');
