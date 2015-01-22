@@ -4,19 +4,19 @@
 
 A "Fun-ish" Wi-fi Router Firmware Package Manager + CLI
 
-*Because screw reading forums, and hours of wiki lookups. **Yes i'm looking at you Openwrt** *
+*Because screw reading forums, and hours of wiki lookups.* ***Yes i'm looking at you Openwrt***
 
 ##API Concept:
 
 ###Connecting to Router:
----
-####mashflash.connect(opts, ip, callback(err, router))
+####mashflash(opts, callback(err, router))
 
 ```js
 var mashflash = require('mashflash');
 
 // Set Options (Optional)
 var opts = {
+	port: '192.168.1.9',
 	type: 'OpenWrt'
 	auth: {
 		user: 'admin',
@@ -25,7 +25,7 @@ var opts = {
 };
 
 // Connect to Router
-mashflash.connect(opts, '192.168.1.9', function(err, router) {
+mashflash(opts, function(err, router) {
 	// Returns Router Object
 	if(!err)
 		// Get router Info 
@@ -38,13 +38,12 @@ mashflash.connect(opts, '192.168.1.9', function(err, router) {
 ```
 
 ###Router Object
----
 ####router.install(url, callback(err))
 ##### Install Firmware Binary from specified link
 ```js
 var mashflash = require('mashflash');
 
-mashflash.connect('192.168.1.9',function(err, router){
+mashflash('192.168.1.9', function(err, router){
 	if(!err)
 		// Install Router Binary from Link
 		router.install('https://downloads.openwrt.org/barrier_breaker/14.07/ar71xx/generic/OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2.tar.bz2', function(err){
@@ -65,7 +64,7 @@ mashflash.connect('192.168.1.9',function(err, router){
 ```js
 var mashflash = require('mashflash');
 
-mashflash.connect('192.168.1.9', function(err, router){
+mashflash('192.168.1.9', function(err, router){
 	if(!err)
 		// Or have Mashflash figure out the best one 
 		router.install('Openwrt','latest', function(err){
